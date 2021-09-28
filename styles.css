@@ -106,6 +106,10 @@ a {
     cursor: pointer;
 }
 
+.movie__title {
+    text-transform: uppercase;
+}
+
 .movie:hover{
     box-shadow: 0 0px 20px rgba(255, 255, 255, .25),    
                 0 0px 10px rgba(255, 255, 255, 0.22);
@@ -125,6 +129,11 @@ a {
     -moz-transform: translateY(0px);
     -ms-transform: translateY(0px);
     -o-transform: translateY(0px);
+}
+
+.movie__image {
+    width: 25rem;
+    height: 25rem;
 }
 
 .movie__image img{
